@@ -21,6 +21,6 @@ function selectDifferentDrivers(arr, fn){
   if (fn === "returnFirstTwoDrivers"){
     return FirstTwoDrivers(arr);
   } else {
-    return LastTwoDrivers(arr);
+    returnLastTwoDrivers(arr);
   }
 }
